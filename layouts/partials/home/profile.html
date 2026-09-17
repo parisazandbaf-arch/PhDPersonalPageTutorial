@@ -1,11 +1,9 @@
 {{ $disableImageOptimization := .Site.Params.disableImageOptimization | default false }}
 {{ $homepageImage := .Site.Params.homepage.homepageImage | default "images/cinecircuit-banner.jpg" }}
-<div class="fixed inset-0 z-0 flex items-center justify-center overflow-hidden bg-black" aria-hidden="true">
-  <img
-    class="max-w-none max-h-none object-none nozoom"
-    style="width: 3456px; height: 6912px;"
-    src="{{ $homepageImage | relURL }}"
-    alt="">
+<div
+  class="fixed inset-0 z-0 overflow-hidden bg-black"
+  aria-hidden="true"
+  style="background-image: url('{{ $homepageImage | relURL }}'); background-size: auto; background-position: center; background-repeat: no-repeat;">
 </div>
 <article
   class="relative z-10 {{ if not .Site.Params.homepage.showRecent }}
