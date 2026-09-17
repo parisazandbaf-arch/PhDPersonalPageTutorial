@@ -19,6 +19,7 @@ mainSections = []
 
 [homepage]
   layout = "profile"
+  homepageImage = "images/cinecircuit-banner.jpg"
   showRecent = false
   showRecentItems = 5
   showMoreLink = false
