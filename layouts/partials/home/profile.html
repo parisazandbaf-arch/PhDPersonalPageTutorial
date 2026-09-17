@@ -46,12 +46,6 @@
       {{ partialCached "author-links.html" . }}
     </div>
   </header>
-  <img
-    class="mx-auto my-8 block max-h-none max-w-none"
-    width="3456"
-    height="6912"
-    src="{{ $homepageImage | relURL }}"
-    alt="CineCircuit">
   <section class="prose dark:prose-invert w-full">{{ .Content }}</section>
 </article>
 <section>
