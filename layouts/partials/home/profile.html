@@ -2,7 +2,8 @@
 {{ $homepageImage := .Site.Params.homepage.homepageImage | default "images/cinecircuit-banner.jpg" }}
 <div class="fixed inset-0 z-0 flex items-center justify-center overflow-hidden bg-black" aria-hidden="true">
   <img
-    class="max-h-full max-w-full object-contain nozoom"
+    class="max-w-none max-h-none object-none nozoom"
+    style="width: 3456px; height: 6912px;"
     src="{{ $homepageImage | relURL }}"
     alt="">
 </div>
