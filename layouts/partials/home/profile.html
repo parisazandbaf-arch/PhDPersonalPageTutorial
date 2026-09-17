@@ -1,8 +1,8 @@
 {{ $disableImageOptimization := .Site.Params.disableImageOptimization | default false }}
 {{ $homepageImage := .Site.Params.homepage.homepageImage | default "images/cinecircuit-banner.jpg" }}
-<div class="fixed inset-0 z-0 overflow-hidden" aria-hidden="true">
+<div class="fixed inset-0 z-0 flex items-center justify-center overflow-hidden" aria-hidden="true">
   <img
-    class="h-full w-full object-cover nozoom"
+    class="h-auto w-auto max-h-none max-w-none nozoom"
     src="{{ $homepageImage | relURL }}"
     alt="">
   <div class="absolute inset-0 bg-black/55 dark:bg-black/65"></div>
