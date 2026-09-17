@@ -5,7 +5,7 @@ autoSwitchAppearance = true
 enableSearch = true
 enableCodeCopy = true
 
-mainSections = ["research", "publications"]
+mainSections = []
 
 [header]
   layout = "fixed"

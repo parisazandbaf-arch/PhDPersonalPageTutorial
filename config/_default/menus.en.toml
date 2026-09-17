@@ -4,22 +4,16 @@
   weight = 10
 
 [[main]]
-  name = "Research"
-  pageRef = "research"
+  name = "Films"
+  pageRef = "films"
   weight = 20
 
 [[main]]
-  name = "Publications"
-  pageRef = "publications"
+  name = "Contact"
+  pageRef = "contact"
   weight = 30
 
 [[main]]
-  name = "Teaching"
-  pageRef = "teaching"
+  name = "Cinsiders"
+  pageRef = "cinsiders"
   weight = 40
-
-[[main]]
-  name = "Workshop Guide"
-  pageRef = "guide"
-  weight = 50
-
